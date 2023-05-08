@@ -113,9 +113,9 @@ main {
 
 .alerta {
     position: absolute;
-left: 6.5%;
+left: 5%;
 right: 0%;
-top: 78%;
+top: 77.8%;
 bottom: 0%;
 }
 
@@ -130,9 +130,9 @@ bottom: 0%;
       margin-left: 30px;
     }
     .mensaje {
-        margin-left: -400px;
+        margin-left: -420px;
         margin-top: 780px;
-        padding-left: -10px;
+        padding-left: -5px;
         height:450px; 
         width: 320px;
         position: relative;
@@ -145,7 +145,7 @@ bottom: 0%;
     .btn-desencriptar, .btn-encriptar {
       width: 85%;
       margin-bottom: 16px;
-      margin-left: -60px;
+      margin-left: -88px;
 
     }
 
