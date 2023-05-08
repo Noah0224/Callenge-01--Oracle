@@ -113,8 +113,58 @@ main {
 
 .alerta {
     position: absolute;
-left: 5%;
+left: 6.5%;
 right: 0%;
-top: 77.5%;
+top: 78%;
 bottom: 0%;
 }
+
+@media only screen and (max-width: 480px) {
+    * {
+      font-size: 24px;
+    }
+    .logo {
+      width: 5%;
+    }
+    main {
+      margin-left: 30px;
+    }
+    .mensaje {
+        margin-left: -400px;
+        margin-top: 780px;
+        padding-left: -10px;
+        height:450px; 
+        width: 320px;
+        position: relative;
+    }
+    .botones {
+      flex-direction: column;
+      align-items: center;
+      margin-top: 24px;
+    }
+    .btn-desencriptar, .btn-encriptar {
+      width: 85%;
+      margin-bottom: 16px;
+      margin-left: -60px;
+
+    }
+
+    .copiar {
+
+        margin-left: -332px;
+        margin-top: 280%;
+        width: 78%
+    }
+    .informacion {
+      font-size: 14px;
+    }
+
+    .alerta{
+        top: 60.8%;
+        left: 8%
+    }
+  }
+  
+
+    
+    
